@@ -24,16 +24,11 @@ export const InfoWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   z-index: 1;
-  width: 100%;
+  height: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
   padding: 0 24px;
-  justify-content: center;
-
-  @media screen and (min-width: 768px) {
-    height: 860px;
-  }
 `;
 
 export const Column1 = styled.div`
@@ -42,13 +37,9 @@ export const Column1 = styled.div`
   margin-right: auto;
   padding: 0 15px;
   width: 50%;
-  align-items: center;
+  display: flex;
+  align-self: center;
 
-  @media screen and (min-width: 769px and max-width: 980px) {
-      display: flex;
-      align-items: center;
-      justify-items: center;
-  }
   @media screen and (max-width: 768px) {
     max-width: 480px;
     width: 100%;
@@ -70,17 +61,19 @@ export const Column2 = styled.div`
 `;
 
 export const IntroP = styled.p`
-  font-size: 18px;
+  font-size: 1.1rem;
   letter-spacing: 1.4px;
   margin-bottom: 16px;
   color: #fff;
   @media screen and (max-width: 768px) {
     width: 100%;
     margin-top: 15px;
+    font-size: 1rem;
   }
 `;
 
 export const Img = styled.img`
+  max-width: 320px;
   width: 100%;
   height: auto;
   padding-right: 0;
@@ -88,6 +81,6 @@ export const Img = styled.img`
   border-radius: 50%;
 
   @media screen and (max-width: 768px) {
-    max-width: 480px;
+    max-width: 220px;
   }
 `;

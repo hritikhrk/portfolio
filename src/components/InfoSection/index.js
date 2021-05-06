@@ -17,7 +17,7 @@ const InfoSection = () => {
         <InfoH1>ABOUT ME</InfoH1>
         <InfoWrapper>
           <Column1>
-            <Img src={Image} />
+            <Img src={Image} style={{"align-self": "center"}} />
           </Column1>
           <Column2>
             <IntroP>
