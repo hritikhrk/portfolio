@@ -5,7 +5,12 @@ import {
   InfoH1,
   InfoWrapper,
 } from "../InfoSection/InfoElements";
-import { ContactH2, SocialIconWrapper, SocialIcons } from "./ContactElements";
+import {
+  ContactH2,
+  SocialIconWrapper,
+  SocialIcons,
+  IconDiv,
+} from "./ContactElements";
 import {
   FaFacebookF,
   FaInstagram,
@@ -23,34 +28,44 @@ const ContactSection = () => {
         <InfoH1>CONTACT ME</InfoH1>
         <InfoWrapper>
           <Column2>
-            <ContactH2 style={{ "margin-bottom": "16px" }}>
+            <ContactH2 style={{ marginBottom: "16px" }}>
               Social Profiles
             </ContactH2>
             <SocialIconWrapper>
               <SocialIcons to="https://www.facebook.com/hritikhrk">
-                <FaFacebookF />
+                <IconDiv>
+                  <FaFacebookF />
+                </IconDiv>
               </SocialIcons>
               <SocialIcons>
-                <FaInstagram />
+                <IconDiv>
+                  <FaInstagram />
+                </IconDiv>
               </SocialIcons>
               <SocialIcons>
-                <FaLinkedinIn />
+                <IconDiv>
+                  <FaLinkedinIn />
+                </IconDiv>
               </SocialIcons>
               <SocialIcons>
-                <FaGithub />
+                <IconDiv>
+                  <FaGithub />
+                </IconDiv>
               </SocialIcons>
               <SocialIcons>
-                <SiGmail />
+                <IconDiv>
+                  <SiGmail />
+                </IconDiv>
               </SocialIcons>
               <SocialIcons>
-                <FaHackerrank />
+                <IconDiv>
+                  <FaHackerrank />
+                </IconDiv>
               </SocialIcons>
             </SocialIconWrapper>
           </Column2>
           <Column2>
-            <ContactH2 style={{ "margin-bottom": "16px" }}>
-              Get in touch
-            </ContactH2>
+            <ContactH2 style={{ marginBottom: "16px" }}>Get in touch</ContactH2>
             <ContactForm />
           </Column2>
         </InfoWrapper>

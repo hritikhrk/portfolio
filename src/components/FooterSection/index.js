@@ -10,7 +10,7 @@ const FooterSection = () => {
           <Copyright />
           {new Date().getFullYear() + "."}
         </SpanP1>
-        <SpanP1 style={{ "margin-left": "0" }}>All Rights Reserved.</SpanP1>
+        <SpanP1 style={{ "marginLeft": "0" }}>All Rights Reserved.</SpanP1>
         <SpanP2>
           Hritik | Designed and Developed by
           <Heart />

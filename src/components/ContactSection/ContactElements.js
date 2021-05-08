@@ -15,16 +15,29 @@ export const SocialIconWrapper = styled.div`
 
 export const SocialIcons = styled.div`
   margin: auto;
-  ${'' /* padding: 10px 0; */}
   flex-basis: 33%;
   text-align: center;
   align-items: center;
-  font-size: 1.8rem;
-  cursor: pointer;
-  border-radius: 100%;
-
-  &:hover {
-      color: #01BF71;
-  }
 `;
 
+export const IconDiv = styled.button`
+  margin: auto;
+  padding: 8px;
+  font-size: 1.6rem;
+  background-color: #010606;
+  white-space: nowrap;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+
+  &:active {
+    color: #01bf71;
+  }
+
+  @media screen and (min-width: 1025px) {
+    &:hover {
+      color: #01bf71;
+    }
+  }
+`;
