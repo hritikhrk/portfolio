@@ -10,6 +10,7 @@ import {
   SocialIconWrapper,
   SocialIcons,
   IconDiv,
+  ContactFormWrapper
 } from "./ContactElements";
 import {
   FaFacebookF,
@@ -66,7 +67,9 @@ const ContactSection = () => {
           </Column2>
           <Column2>
             <ContactH2 style={{ marginBottom: "16px" }}>Get in touch</ContactH2>
-            <ContactForm />
+            <ContactFormWrapper>
+              <ContactForm />
+            </ContactFormWrapper>
           </Column2>
         </InfoWrapper>
       </InfoContainer>

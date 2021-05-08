@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import FilteredPropsInputField from "./FilteredPropsInputField";
 
 export const ContactH2 = styled.h3`
   text-align: center;
@@ -39,5 +40,24 @@ export const IconDiv = styled.button`
     &:hover {
       color: #01bf71;
     }
+  }
+`;
+
+export const ContactFormWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+export const Field = styled(FilteredPropsInputField)`
+  width: 300px;
+  height: 35px;
+  background-color: #fff;
+
+  &:focus,
+  &:active {
+    box-shadow: yellow 0px 0px 2px 1px,
+      yellow 0px 0px 0px 3px;
+    border: 1px solid voilet;
+    outline: none;
   }
 `;
