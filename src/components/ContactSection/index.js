@@ -1,13 +1,13 @@
 import React from "react";
 import {
   Column2,
-  InfoContainer,
-  InfoH1,
-  InfoWrapper,
+  SectionContainer,
+  SectionH1,
+  SectionWrapper,
 } from "../InfoSection/InfoElements";
 import {
   ContactH2,
-  SocialIconWrapper,
+  RowsWrapper,
   SocialIcons,
   IconDiv,
   ContactFormWrapper,
@@ -25,14 +25,22 @@ import ContactForm from "./ContactForm";
 const ContactSection = () => {
   return (
     <>
-      <InfoContainer id="contact">
-        <InfoH1>CONTACT ME</InfoH1>
-        <InfoWrapper>
+      <SectionContainer id="contact" style={{ paddingBottom: "55px" }}>
+        <SectionH1>CONTACT ME</SectionH1>
+        <SectionWrapper>
           <Column2>
             <ContactH2 style={{ marginBottom: "16px" }}>
               Social Profiles
             </ContactH2>
-            <SocialIconWrapper>
+            <RowsWrapper>
+              <div style={{"marginBottom": "40px"}}>
+                Wanna talk, work, collaborate with me.
+                <br/>
+                  Ping me on these
+                platform.
+              </div>
+            </RowsWrapper>
+            <RowsWrapper>
               <SocialIcons>
                 <IconDiv
                   href="https://www.facebook.com/hritikhrk"
@@ -75,7 +83,7 @@ const ContactSection = () => {
                   <FaHackerrank />
                 </IconDiv>
               </SocialIcons>
-            </SocialIconWrapper>
+            </RowsWrapper>
           </Column2>
           <Column2>
             <ContactH2 style={{ marginBottom: "16px" }}>Get in touch</ContactH2>
@@ -83,8 +91,8 @@ const ContactSection = () => {
               <ContactForm />
             </ContactFormWrapper>
           </Column2>
-        </InfoWrapper>
-      </InfoContainer>
+        </SectionWrapper>
+      </SectionContainer>
     </>
   );
 };

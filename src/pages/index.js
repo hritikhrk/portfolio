@@ -5,6 +5,8 @@ import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import ContactSection from '../components/ContactSection'
 import FooterSection from '../components/FooterSection';
+import InterestSection from '../components/InterestSection.js';
+import ResumeSection from '../components/ResumeSection';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,6 +21,8 @@ const Home = () => {
             <Navbar toggle={toggle}/>
             <HeroSection />
             <InfoSection />
+            <InterestSection />
+            <ResumeSection />
             <ContactSection />
             <FooterSection />
         </>

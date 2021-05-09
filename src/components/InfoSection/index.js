@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "../../Images/hritik.jpg";
 import {
-  InfoContainer,
-  InfoH1,
-  InfoWrapper,
+  SectionContainer,
+  SectionH1,
+  SectionWrapper,
   Column1,
   Img,
   Column2,
@@ -13,9 +13,9 @@ import {
 const InfoSection = () => {
   return (
     <>
-      <InfoContainer id="about">
-        <InfoH1>ABOUT ME</InfoH1>
-        <InfoWrapper>
+      <SectionContainer id="about">
+        <SectionH1>ABOUT ME</SectionH1>
+        <SectionWrapper>
           <Column1>
             <Img src={Image} style={{"alignSelf": "center"}} />
           </Column1>
@@ -37,8 +37,8 @@ const InfoSection = () => {
               Sint cillum ut ipsum culpa minim elit ex exercitation commodo ea. Magna elit reprehenderit Lorem cupidatat labore ea proident commodo deserunt excepteur ipsum id ex amet. Culpa excepteur velit aute nisi do.
             </IntroP>
           </Column2>
-        </InfoWrapper>
-      </InfoContainer>
+        </SectionWrapper>
+      </SectionContainer>
     </>
   );
 };

@@ -6,7 +6,7 @@ export const ContactH2 = styled.h3`
   font-size: 1.4rem;
 `;
 
-export const SocialIconWrapper = styled.div`
+export const RowsWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

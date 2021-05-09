@@ -35,7 +35,7 @@ const ContactForm = () => {
           console.log(values);
         }}
       >
-        <Form name="contact" method="post">
+        <Form method="post">
           <InputWrapper>
             <label htmlFor="name">Name</label>
             <Input name="name" type="text" />

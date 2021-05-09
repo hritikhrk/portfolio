@@ -1,17 +1,16 @@
 import styled from "styled-components";
 
-export const InfoContainer = styled.div`
+export const SectionContainer = styled.div`
   color: #fff;
   background-color: #010606;
   padding-top: 100px;
-  offset: -160px;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }
 `;
 
-export const InfoH1 = styled.h1`
+export const SectionH1 = styled.h1`
   font-size: 48px;
   margin-bottom: 32px;
   text-align: center;
@@ -22,7 +21,7 @@ export const InfoH1 = styled.h1`
   }
 `;
 
-export const InfoWrapper = styled.div`
+export const SectionWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
   z-index: 1;
@@ -67,6 +66,7 @@ export const IntroP = styled.p`
   letter-spacing: 1.4px;
   margin-bottom: 16px;
   color: #fff;
+  text-align: justify;
   @media screen and (max-width: 768px) {
     width: 100%;
     margin-top: 15px;
