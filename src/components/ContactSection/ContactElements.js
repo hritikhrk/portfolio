@@ -25,7 +25,7 @@ export const IconDiv = styled.a`
   margin: auto;
   padding: 8px;
   font-size: 1.6rem;
-  background-color: #010606;
+  background-color: #0d0d0d;
   outline: none;
   border: none;
   color: #fff;
@@ -56,21 +56,20 @@ export const InputWrapper = styled.div`
 `;
 
 export const Input = styled(FilteredPropsInputField)`
-  background-color: #fff;
-  border: 1px solid grey;
-  border-radius: 4px;
+  background-color: rgb(232, 240, 254);
+  border-radius: 8px;
   font-size: 1rem;
-  line-height: 1.2rem;
+  line-height: 1.6rem;
   font-style: normal;
   width: 100%;
   margin-top: 0.1rem;
   padding: 0.3rem 0.3rem;
+  outline: none;
+  border: none;
 
   &:focus,
   &:active {
-    box-shadow: yellow 0px 0px 2px 1px, yellow 0px 0px 0px 3px;
-    border: 1px solid voilet;
-    outline: none;
+    border: 4px solid #ff9900;
   }
 
   ${
@@ -107,10 +106,10 @@ export const Input = styled(FilteredPropsInputField)`
 
 export const Submit = styled.button`
   border-radius: 50px;
-  background: #01BF71;
+  background: #01bf71;
   white-space: nowrap;
   padding: 8px 30px;
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   outline: none;
   border: none;
@@ -139,11 +138,9 @@ export const Submit = styled.button`
 `;
 
 export const ErrorMsgWrapper = styled.div`
-  background-color: #010606;
+  background-color: #0d0d0d;
   color: Red;
-  display: block;
-
-  padding: 0.1rem 0.1rem;
-  margin-top: 0.2rem;
-  white-space: pre-line;
+  outline: none;
+  border: none;
+  margin: 0.2rem 0 10px 0;
 `;
