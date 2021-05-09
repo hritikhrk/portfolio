@@ -46,18 +46,108 @@ export const IconDiv = styled.button`
 export const ContactFormWrapper = styled.div`
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
+  max-width: 432px;
+  margin-left:auto;
+  margin-right: auto;
 `;
 
-export const Field = styled(FilteredPropsInputField)`
-  width: 300px;
-  height: 35px;
+export const InputWrapper = styled.div`
+  margin-bottom: 12px;
+`;
+
+export const Input = styled(FilteredPropsInputField)`
   background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  font-style: normal;
+  width: 100%;
+  margin-top: 0.1rem;
+  padding: 0.3rem 0.3rem;
 
   &:focus,
   &:active {
-    box-shadow: yellow 0px 0px 2px 1px,
-      yellow 0px 0px 0px 3px;
+    box-shadow: yellow 0px 0px 2px 1px, yellow 0px 0px 0px 3px;
     border: 1px solid voilet;
     outline: none;
+  };
+
+  ${'' /* ${({ valid }) =>
+    valid &&
+    css`
+      border: 1px solid rgb(0, 156, 38);
+
+      &:focus,
+      &:active {
+        border: 1px solid rgb(0, 156, 38);
+        box-shadow: rgb(106, 237, 97) 0px 0px 2px 1px,
+          rgb(177, 247, 160) 0px 0px 0px 3px;
+        outline: none;
+      }
+    `}
+
+  ${({ error }) =>
+    error &&
+    css`
+      border: 1px solid rgb(191, 49, 12);
+      outline: none;
+
+      &:focus,
+      &:active {
+        box-shadow: rgb(244, 129, 116) 0px 0px 2px 1px,
+          rgb(251, 178, 174) 0px 0px 0px 3px;
+        border: 1px solid rgb(191, 49, 12);
+        outline: none;
+      }
+    `} */}
+`;
+
+export const Submit = styled.button`
+  width: 40%;
+  margin-top: 1.5rem;
+
+  background-color: #01bf71;
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  height: 3rem;
+  white-space: nowrap;
+  color: rgb(232, 243, 255) !important;
+  padding: 0.5rem 0.5rem;
+  border-radius: 50px;
+  outline: none;
+
+  &:active,
+  &:focus,
+  &:hover {
+    cursor: pointer;
   }
+
+  &:disabled {
+    cursor: pointer;
+    background-color: rgb(163, 168, 173);
+    box-shadow: none;
+    color: rgb(255, 255, 255) !important;
+
+    &:hover,
+    &:focus {
+      cursor: not-allowed;
+    }
+  }
+
+`;
+
+export const ErrorMsgWrapper = styled.div`
+  background-color: #010606;
+  color: Red;
+  display: block;
+
+  padding: 0.1rem 0.1rem;
+  margin-top: 0.2rem;
+  white-space: pre-line;
 `;

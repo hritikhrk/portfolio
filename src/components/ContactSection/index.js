@@ -25,9 +25,9 @@ import ContactForm from "./ContactForm";
 const ContactSection = () => {
   return (
     <>
-      <InfoContainer>
+      <InfoContainer >
         <InfoH1>CONTACT ME</InfoH1>
-        <InfoWrapper>
+        <InfoWrapper >
           <Column2>
             <ContactH2 style={{ marginBottom: "16px" }}>
               Social Profiles
@@ -67,7 +67,7 @@ const ContactSection = () => {
           </Column2>
           <Column2>
             <ContactH2 style={{ marginBottom: "16px" }}>Get in touch</ContactH2>
-            <ContactFormWrapper>
+            <ContactFormWrapper >
               <ContactForm />
             </ContactFormWrapper>
           </Column2>

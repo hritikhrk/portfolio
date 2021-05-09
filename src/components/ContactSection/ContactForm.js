@@ -1,25 +1,26 @@
 import React from "react";
-import { Field, Formik, Form, ErrorMessage } from "formik";
+import { Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
+import {
+  Input,
+  InputWrapper,
+  Submit,
+  ErrorMsgWrapper,
+} from "./ContactElements";
 
 const ContactForm = () => {
   return (
     <>
       <Formik
         initialValues={{
-          firstName: "",
-          lastName: "",
+          name: "",
           email: "",
           message: "",
         }}
         validationSchema={Yup.object({
-          firstName: Yup.string()
+          name: Yup.string()
             .trim()
             .max(15, "Must be 15 characters or less")
-            .required("required"),
-          lastName: Yup.string()
-            .trim()
-            .max(20, "Must be 20 characters or less")
             .required("required"),
           email: Yup.string()
             .trim()
@@ -27,45 +28,44 @@ const ContactForm = () => {
             .required("required"),
           message: Yup.string()
             .trim()
-            .min(30, "Write at least 10 words")
+            .min(3, "Write at least 10 words")
             .required("required"),
         })}
-        // onSubmit={(values) => {
-        //   alert(JSON.stringify(values, null, 2));
-        // }}
-        onSubmit={(values, { setSubmitting }) => {
-          setTimeout(() => {
-            alert(JSON.stringify(values, null, 2));
-            setSubmitting(false);
-          }, 400);
+        onSubmit={(values) => {
+          console.log(values);
         }}
       >
-        <Form>
-          <div>
-          <label htmlFor="firstName">First Name</label>
-          <Field name="firstName" type="text" />
-          <ErrorMessage name="firstName" />
-          </div>
+        <Form name="contact" method="post">
+          <InputWrapper>
+            <label htmlFor="name">Name</label>
+            <Input name="name" type="text" />
+            <ErrorMsgWrapper>
+              <ErrorMessage name="name" />
+            </ErrorMsgWrapper>
+          </InputWrapper>
 
-          <div>
-          <label htmlFor="lastName">Last Name</label>
-          <Field name="lastName" type="text" />
-          <ErrorMessage name="lastName" />
-          </div>
+          <InputWrapper>
+            <label htmlFor="email">Email Address</label>
+            <Input name="email" type="email" />
+            <ErrorMsgWrapper>
+              <ErrorMessage name="email" />
+            </ErrorMsgWrapper>
+          </InputWrapper>
 
-          <div>
-          <label htmlFor="email">Email Address</label>
-          <Field name="email" type="email" />
-          <ErrorMessage name="email" />
-          </div>
+          <InputWrapper>
+            <label htmlFor="message">Message</label>
+            <Input
+              name="message"
+              component="textarea"
+              style={{ resize: "none" }}
+              rows="3"
+            />
+            <ErrorMsgWrapper>
+              <ErrorMessage name="message" />
+            </ErrorMsgWrapper>
+          </InputWrapper>
 
-          <div>
-          <label htmlFor="message">Message</label>
-          <Field name="message" as="textarea" />
-          <ErrorMessage name="message" />
-          </div>
-
-          <button type="submit">Submit</button>
+          <Submit type="submit">Submit</Submit>
         </Form>
       </Formik>
     </>
