@@ -37,6 +37,9 @@ const HeroSection = () => {
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            spy={true}
+            smooth={true}
+            duration={500}
           >
             know more {hover ? <ArrowDownward /> : <ArrowDown />}
           </Button>

@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import ContactSection from '../components/ContactSection'
 import FooterSection from '../components/FooterSection';
-import InterestSection from '../components/InterestSection.js';
+import InterestSection from '../components/InterestSection';
 import ResumeSection from '../components/ResumeSection';
 
 const Home = () => {
