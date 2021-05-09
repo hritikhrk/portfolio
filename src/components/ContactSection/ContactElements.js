@@ -15,18 +15,17 @@ export const SocialIconWrapper = styled.div`
 `;
 
 export const SocialIcons = styled.div`
-  margin: auto;
-  flex-basis: 33%;
+  margin: 5%;
+  flex-basis: 20%;
   text-align: center;
   align-items: center;
 `;
 
-export const IconDiv = styled.button`
+export const IconDiv = styled.a`
   margin: auto;
-  padding: 8px;
+  padding:8px;
   font-size: 1.6rem;
   background-color: #010606;
-  white-space: nowrap;
   outline: none;
   border: none;
   color: #fff;
@@ -48,7 +47,7 @@ export const ContactFormWrapper = styled.div`
   justify-content: center;
   margin-bottom: 50px;
   max-width: 432px;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
 `;
 
@@ -72,9 +71,10 @@ export const Input = styled(FilteredPropsInputField)`
     box-shadow: yellow 0px 0px 2px 1px, yellow 0px 0px 0px 3px;
     border: 1px solid voilet;
     outline: none;
-  };
+  }
 
-  ${'' /* ${({ valid }) =>
+  ${
+    "" /* ${({ valid }) =>
     valid &&
     css`
       border: 1px solid rgb(0, 156, 38);
@@ -101,7 +101,8 @@ export const Input = styled(FilteredPropsInputField)`
         border: 1px solid rgb(191, 49, 12);
         outline: none;
       }
-    `} */}
+    `} */
+  }
 `;
 
 export const Submit = styled.button`
@@ -139,7 +140,6 @@ export const Submit = styled.button`
       cursor: not-allowed;
     }
   }
-
 `;
 
 export const ErrorMsgWrapper = styled.div`

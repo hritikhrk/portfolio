@@ -13,7 +13,7 @@ import {
 const InfoSection = () => {
   return (
     <>
-      <InfoContainer>
+      <InfoContainer id="about">
         <InfoH1>ABOUT ME</InfoH1>
         <InfoWrapper>
           <Column1>
