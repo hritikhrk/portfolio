@@ -23,7 +23,7 @@ export const SocialIcons = styled.div`
 
 export const IconDiv = styled.a`
   margin: auto;
-  padding:8px;
+  padding: 8px;
   font-size: 1.6rem;
   background-color: #010606;
   outline: none;
@@ -106,22 +106,18 @@ export const Input = styled(FilteredPropsInputField)`
 `;
 
 export const Submit = styled.button`
-  width: 40%;
-  margin-top: 1.5rem;
-
-  background-color: #01bf71;
-  display: block;
-  text-align: center;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-style: normal;
-  font-weight: bold;
-  height: 3rem;
-  white-space: nowrap;
-  color: rgb(232, 243, 255) !important;
-  padding: 0.5rem 0.5rem;
   border-radius: 50px;
+  background: #01BF71;
+  white-space: nowrap;
+  padding: 8px 30px;
+  color: #fff;
+  font-size: 16px;
   outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &:active,
   &:focus,
