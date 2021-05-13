@@ -21,8 +21,8 @@ const Home = () => {
             <Navbar toggle={toggle}/>
             <HeroSection />
             <InfoSection />
-            <InterestSection />
             <ResumeSection />
+            <InterestSection />
             <ContactSection />
             <FooterSection />
         </>
