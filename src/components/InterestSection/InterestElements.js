@@ -1,28 +1,22 @@
 import styled from "styled-components";
 
 export const SectionWrapper = styled.div`
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-wrap: wrap;
   padding: 0 24px;
-
-  @media screen and (max-width: 800px) {
-    flex-direction: column;
-  }
 `;
 
 export const CardWrapper = styled.div`
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 
   @media (max-width: 800px) {
   }
+
 `;
 
 export const InterestsCard = styled.div`
   background: #fff;
+  margin: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,6 +40,10 @@ export const InterestsIcon = styled.img`
   border-radius: 10px 10px 0 0;
 `;
 
+export const CardContent = styled.div`
+  padding: 1rem;
+`;
+
 export const InterestsH2 = styled.h2`
   font-size: 1rem;
   margin-bottom: 10px;
@@ -55,6 +53,5 @@ export const InterestsH2 = styled.h2`
 export const InterestsP = styled.p`
   font-size: 1rem;
   text-align: justify;
-  padding: 0 18px 24px 18px;
   color: #010606;
 `;
