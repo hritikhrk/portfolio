@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import {
   HeroContainer,
   HeroBg,
-  VideoBg,
+  ImageBg,
   HeroContent,
   HeroH1,
   HeroP,
@@ -10,8 +10,8 @@ import {
   ArrowDownward,
   ArrowDown,
 } from "./HeroElements";
-import Video from "../../Videos/video.mp4";
 import { Button } from "../ButtonElement";
+import Image from '../../Images/low-poly-grid-haikei.svg'
 
 const HeroSection = () => {
   const [hover, setHover] = useState(false);
@@ -23,7 +23,7 @@ const HeroSection = () => {
   return (
     <HeroContainer id="home">
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <ImageBg src={Image} />
       </HeroBg>
       <HeroContent>
         <HeroH1>Hi there, My name is Hritik Kumar.</HeroH1>

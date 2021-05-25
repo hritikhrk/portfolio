@@ -17,7 +17,7 @@ const InfoSection = () => {
         <SectionH1>ABOUT ME</SectionH1>
         <SectionWrapper>
           <Column1>
-            <Img src={Image} style={{"alignSelf": "center"}} />
+            <Img src={Image} style={{ "alignSelf": "center" }} />
           </Column1>
           <Column2>
             <IntroP>
@@ -34,7 +34,10 @@ const InfoSection = () => {
               est irure.
             </IntroP>
             <IntroP>
-              Sint cillum ut ipsum culpa minim elit ex exercitation commodo ea. Magna elit reprehenderit Lorem cupidatat labore ea proident commodo deserunt excepteur ipsum id ex amet. Culpa excepteur velit aute nisi do.
+              Sint cillum ut ipsum culpa minim elit ex exercitation commodo ea.
+              Magna elit reprehenderit Lorem cupidatat labore ea proident
+              commodo deserunt excepteur ipsum id ex amet. Culpa excepteur velit
+              aute nisi do.
             </IntroP>
           </Column2>
         </SectionWrapper>
