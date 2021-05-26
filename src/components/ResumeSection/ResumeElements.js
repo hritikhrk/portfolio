@@ -39,8 +39,3 @@ export const TileTitle = styled.h3`
 `;
 
 export const TileP = styled.p``;
-
-export const ChartWrapper = styled.div`
-  display: block;
-  margin: 40px auto;
-`;

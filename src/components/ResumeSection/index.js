@@ -14,9 +14,7 @@ import {
   TileTitle,
   TileSubTitle,
   TileP,
-  ChartWrapper,
 } from "./ResumeElements";
-import { Chart } from "./ChartSection";
 
 const Tile = (props) => (
   <TileWrapper>
@@ -76,9 +74,6 @@ const ResumeSection = () => {
             </RowWrapper>
             <RowWrapper>
               <RowTitle>My Skills</RowTitle>
-              <ChartWrapper>
-                <Chart />
-              </ChartWrapper>
             </RowWrapper>
           </Row>
         </SectionWrapper>
