@@ -4,3 +4,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+@media screen and (max-width: 480px) {
+  p {
+    font-size: 0.9rem;
+  }
+}

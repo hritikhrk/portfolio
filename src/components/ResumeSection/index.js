@@ -14,6 +14,12 @@ import {
   TileTitle,
   TileSubTitle,
   TileP,
+  SkillContainer,
+  SkillTitle,
+  SkillDiv,
+  ProgrammingSkill,
+  SkillPart,
+  SkillP,
 } from "./ResumeElements";
 
 const Tile = (props) => (
@@ -74,6 +80,67 @@ const ResumeSection = () => {
             </RowWrapper>
             <RowWrapper>
               <RowTitle>My Skills</RowTitle>
+              <SkillContainer>
+                <ProgrammingSkill>
+                  <SkillTitle>
+                    <b>Programming Skill: </b>
+                  </SkillTitle>
+                  <SkillDiv>
+                    <SkillPart>
+                      <SkillP>C,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>C++,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>Java,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>Data Structure,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>Design and Analysis of Algorithms,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>HTML,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>CSS,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>JavaScript,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>React.js,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>Node.js,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>Express.js,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>MongoDb,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>MySql</SkillP>
+                    </SkillPart>
+                  </SkillDiv>
+                </ProgrammingSkill>
+                <ProgrammingSkill>
+                  <SkillTitle>
+                    <b>Tools Skill: </b>
+                  </SkillTitle>
+                  <SkillDiv>
+                    <SkillPart>
+                      <SkillP>Git,</SkillP>
+                    </SkillPart>
+                    <SkillPart>
+                      <SkillP>Visual Studio Code IDE</SkillP>
+                    </SkillPart>
+                  </SkillDiv>
+                </ProgrammingSkill>
+              </SkillContainer>
             </RowWrapper>
           </Row>
         </SectionWrapper>

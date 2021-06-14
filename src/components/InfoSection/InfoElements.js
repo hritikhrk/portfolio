@@ -73,6 +73,9 @@ export const IntroP = styled.p`
     margin-top: 15px;
     font-size: 1rem;
   }
+  @media screen and (max-width: 480px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export const Img = styled.img`

@@ -9,6 +9,7 @@ export const Row = styled.div`
 export const RowWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 
   @media screen and (min-width: 769px) {
     flex: 50%;
@@ -39,3 +40,59 @@ export const TileTitle = styled.h3`
 `;
 
 export const TileP = styled.p``;
+
+export const SkillContainer = styled.div`
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 24px auto;
+`;
+
+export const ProgrammingSkill = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  align-items: center;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+`;
+
+export const SkillTitle = styled.div`
+  font-size: 1.14rem;
+  width: 25%;
+  text-align: center;
+  text-decoration: underline;
+  padding: 8px;
+  margin-right: 40px;
+
+  @media screen and (max-width: 480px) {
+    align-items: center;
+    margin-bottom: 4px;
+    margin-right: 0px;
+    width: 100%;
+  }
+`;
+
+export const SkillDiv = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }
+`;
+
+export const SkillDivWrapper = styled.div`
+  display: flex;
+  margin: auto;
+  padding: 0 auto;
+`;
+
+export const SkillPart = styled.div`
+  text-align: center;
+  padding: 4px 12px;
+  float: center;
+`;
+
+export const SkillP = styled.p``;
