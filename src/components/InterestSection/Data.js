@@ -1,44 +1,18 @@
 export const CardsData = [
   {
-    id: 1,
-    title: "Interest 1",
+    id: "PR1",
+    title: "RESTAURANT WEBSITE",
     imgUrl: "/Assets/icon1.jpg",
+    href: "https://hritikhrk.github.io/wdc/mod5_sol/assignment5-solution-starter/",
     content:
-      "Labore occaecat incididunt consectetur exercitation non incididunt cupidatat velit laborum consectetur nulla veniam.",
+      "A fully responsive website for a Chinese Restaurant developed by using HTML, CSS, Bootstrap and JavaScript.",
   },
   {
-    id: 2,
-    title: "Interest 2",
+    id: "PR2",
+    title: "SHORT YOUR URL",
+    href: "https://short-ur-url.herokuapp.com/",
     imgUrl: "/Assets/icon2.jpg",
     content:
-      "Labore occaecat incididunt consectetur exercitation non incididunt cupidatat velit laborum consectetur nulla veniam.",
-  },
-  {
-    id: 3,
-    title: "Interest 3",
-    imgUrl: "/Assets/icon3.jpg",
-    content:
-      "Labore occaecat incididunt consectetur exercitation non incididunt cupidatat velit laborum consectetur nulla veniam.",
-  },
-  {
-    id: 4,
-    title: "Interest 1",
-    imgUrl: "/Assets/icon1.jpg",
-    content:
-      "Labore occaecat incididunt consectetur exercitation non incididunt cupidatat velit laborum consectetur nulla veniam.",
-  },
-  {
-    id: 5,
-    title: "Interest 2",
-    imgUrl: "/Assets/icon2.jpg",
-    content:
-      "Labore occaecat incididunt consectetur exercitation non incididunt cupidatat velit laborum consectetur nulla veniam.",
-  },
-  {
-    id: 6,
-    title: "Interest 3",
-    imgUrl: "/Assets/icon3.jpg",
-    content:
-      "Labore occaecat incididunt consectetur exercitation non incididunt cupidatat velit laborum consectetur nulla veniam.",
+      "Developed a URL-Shortener application using Node.js, Express.js and MongoDB.",
   },
 ];

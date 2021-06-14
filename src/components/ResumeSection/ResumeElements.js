@@ -14,6 +14,7 @@ export const RowWrapper = styled.div`
   @media screen and (min-width: 769px) {
     flex: 50%;
   }
+
 `;
 
 export const RowTitle = styled.h2`
@@ -30,6 +31,10 @@ export const TileContainter = styled.div`
 
 export const TileWrapper = styled.div`
   padding: 16px;
+
+  @media screen and (max-width: 480px) {
+    padding: 16px 0px;
+  }
 `;
 
 export const TileTitle = styled.h3`
@@ -48,51 +53,24 @@ export const SkillContainer = styled.div`
 `;
 
 export const ProgrammingSkill = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin: 10px auto;
-  align-items: center;
-  @media screen and (max-width: 480px) {
-    flex-direction: column;
-    justify-content: center;
-  }
+margin-top: 24px;
 `;
 
-export const SkillTitle = styled.div`
-  font-size: 1.14rem;
-  width: 25%;
-  text-align: center;
-  text-decoration: underline;
-  padding: 8px;
-  margin-right: 40px;
-
-  @media screen and (max-width: 480px) {
-    align-items: center;
-    margin-bottom: 4px;
-    margin-right: 0px;
-    width: 100%;
-  }
+export const SkillTitle = styled.h3`
+  color: #01bf67;
 `;
 
 export const SkillDiv = styled.div`
   display: flex;
   flex-wrap: wrap;
-  width: 75%;
-  @media screen and (max-width: 480px) {
-    width: 100%;
-  }
 `;
 
 export const SkillDivWrapper = styled.div`
-  display: flex;
-  margin: auto;
-  padding: 0 auto;
+
 `;
 
 export const SkillPart = styled.div`
-  text-align: center;
-  padding: 4px 12px;
-  float: center;
+  padding: 4px 12px 0 0;
 `;
 
 export const SkillP = styled.p``;

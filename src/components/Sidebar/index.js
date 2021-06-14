@@ -50,7 +50,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             duration={500}
             onClick={toggle}
           >
-            Interests
+            Projects
           </SidebarLink>
           <SidebarLink
             to="contact"

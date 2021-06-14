@@ -30,27 +30,27 @@ export const EducationData = [
 
 export const WorkData = [
   {
-    id: 13,
+    id: "we1",
     instituteName: "Navprayas",
-    duration: "June, 19 - Sept, 19",
-    por: "voluteer",
+    duration: "May 2021 – present",
+    por: "Team Lead",
     description:
-      "Adipisicing sint anim veniam exercitation reprehenderit ullamco in nisi reprehenderit et.",
+      "Leading a team of 8 members to successfully organize the PUZZLE RACE - 2021. • Manage team workload distribution and structure to ensure consistent good performance.",
   },
   {
-    id: 23,
+    id: "we2",
     instituteName: "Navprayas",
-    duration: "June, 19 - Sept, 19",
-    por: "voluteer",
+    duration: "Aug 2020 – Sept 2020",
+    por: "Event Coordinator",
     description:
-      "Laborum cupidatat anim adipisicing anim. Amet consectetur ut ea commodo fugiat consequat commodo ea. Nulla dolor exercitation consectetur laborum incididunt occaecat minim sunt dolor deserunt pariatur. Pariatur qui sint ad aliqua mollit esse. Do laborum elit tempor consequat dolor labore non sunt dolor in nulla. Excepteur consectetur non qui incididunt consectetur. Ad mollit veniam aliqua tempor sint anim in ea amet officia. Ea nisi proident ex aliqua incididunt quis do est velit eiusmod.",
+    "Volunteered as an Event Coordinator - Framed brainstorming puzzles for PUZZLE RACE - 2020 organized by Navprayas.",
   },
   {
-    id: 33,
+    id: "we3",
     instituteName: "Navprayas",
-    duration: "June, 19 - Sept, 19",
-    por: "voluteer",
+    duration: "July 2020 - Sept 2020",
+    por: "Executive Member",
     description:
-      "Culpa incididunt incididunt sint pariatur nostrud cillum consectetur commodo duis incididunt esse.",
+      "Worked on the Backend part of its official website using Node.js, Express.js, MongoDb, jwt. Created database for registration of different events organised by Navprayas, database for FAQs, Event Scheduler, Contact form and various APIs to perform CRUD operations on it.",
   },
 ];

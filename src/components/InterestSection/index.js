@@ -12,13 +12,15 @@ import { SectionContainer, SectionH1 } from "../InfoSection/InfoElements";
 import { CardsData } from "./Data";
 
 const Card = (props) => (
-  <InterestsCard className="card">
+  <a style={{textDecoration: "none"}} rel="noreferrer" target="_blank" href={props.href}>
+  <InterestsCard className="card" >
     <InterestsIcon src={props.imgUrl} alt={props.alt || "Image"} />
     <CardContent className="card-content">
       <InterestsH2>{props.title}</InterestsH2>
       <InterestsP>{props.content}</InterestsP>
     </CardContent>
   </InterestsCard>
+  </a>
 );
 
 const CardContainer = (props) => (
@@ -29,6 +31,7 @@ const CardContainer = (props) => (
         title={card.title}
         content={card.content}
         imgUrl={card.imgUrl}
+        href={card.href}
       />
     ))}
   </CardWrapper>
@@ -38,7 +41,7 @@ const InterestSection = () => {
   return (
     <>
       <SectionContainer id="interests">
-        <SectionH1>INTERESTS</SectionH1>
+        <SectionH1>PROJECTS</SectionH1>
         <SectionWrapper>
           <CardContainer cards={CardsData} />
         </SectionWrapper>

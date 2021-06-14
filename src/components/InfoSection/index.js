@@ -26,6 +26,13 @@ const InfoSection = () => {
               recently passed the 2<sup>nd</sup> year of my undergraduate.
             </IntroP>
             <IntroP>
+              I am also an executive member of a non- profit organization
+              "NAVPRAYAS- A Group of Innovative Thoughts" since 2020. I am
+              grateful to be a part of this organization which has served the
+              society by organising different events, Educational Seminars,
+              Carrer Counselling and different social works since 2000.
+            </IntroP>
+            <IntroP>
               I have a keen interest in programming and dream to be a good
               software developer. I enjoy creating cool stuff with programming.
               I am open to work and collaborate with people who love to do

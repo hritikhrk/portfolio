@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const SectionContainer = styled.div`
   color: #fff;
   background-color: #0d0d0d;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 120px;
+  ${'' /* padding-bottom: 50px; */}
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;

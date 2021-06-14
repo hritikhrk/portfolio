@@ -22,7 +22,8 @@ export const InterestsCard = styled.div`
   align-items: center;
   border-radius: 10px;
   max-width: 340px;
-  max-height: 600px;
+  max-height: 400px;
+  height: 100%;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 

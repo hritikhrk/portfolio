@@ -82,9 +82,7 @@ const ResumeSection = () => {
               <RowTitle>My Skills</RowTitle>
               <SkillContainer>
                 <ProgrammingSkill>
-                  <SkillTitle>
-                    <b>Programming Skill: </b>
-                  </SkillTitle>
+                  <SkillTitle>Programming Skill:</SkillTitle>
                   <SkillDiv>
                     <SkillPart>
                       <SkillP>C,</SkillP>
@@ -128,9 +126,7 @@ const ResumeSection = () => {
                   </SkillDiv>
                 </ProgrammingSkill>
                 <ProgrammingSkill>
-                  <SkillTitle>
-                    <b>Tools Skill: </b>
-                  </SkillTitle>
+                  <SkillTitle>Tools Skill:</SkillTitle>
                   <SkillDiv>
                     <SkillPart>
                       <SkillP>Git,</SkillP>
