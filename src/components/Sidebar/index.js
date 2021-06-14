@@ -18,6 +18,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SidebarMenu>
           <SidebarLink
             to="home"
+            exact="true"
             spy={true}
             smooth={true}
             duration={500}
@@ -27,6 +28,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
           <SidebarLink
             to="about"
+            exact='true'
             spy={true}
             smooth={true}
             duration={500}
@@ -36,6 +38,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
           <SidebarLink
             to="resume"
+            exact='true'
             spy={true}
             smooth={true}
             duration={500}
@@ -45,6 +48,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
           <SidebarLink
             to="interests"
+            exact="true"
             spy={true}
             smooth={true}
             duration={500}
@@ -54,6 +58,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
           <SidebarLink
             to="contact"
+            exact="true"
             spy={true}
             smooth={true}
             duration={500}

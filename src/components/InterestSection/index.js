@@ -40,7 +40,7 @@ const CardContainer = (props) => (
 const InterestSection = () => {
   return (
     <>
-      <SectionContainer id="interests">
+      <SectionContainer style={{paddingBottom: "80px"}} id="interests">
         <SectionH1>PROJECTS</SectionH1>
         <SectionWrapper>
           <CardContainer cards={CardsData} />
