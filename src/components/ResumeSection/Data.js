@@ -1,30 +1,30 @@
 export const EducationData = [
   {
-    id: 11,
+    id: "clg",
     title: "Graduation",
     instituteName: "NIT Kurukshetra",
     degree: "B.Tech",
     duration: "2019-23",
     score: "9.16 out of 10 CGPA",
-    description: "Qui consequat sint qui est ullamco veniam ullamco tempor.",
+    description: "Currently pursuing; passed 2nd year.",
   },
   {
-    id: 21,
+    id: "highSchool",
     title: "Intermediate",
     instituteName: "Pragya Bharti Public School",
     degree: "12th CBSE Board",
     duration: "2017-19",
     score: "81.6%",
-    description: "Qui consequat sint qui est ullamco veniam ullamco tempor.",
+    // description: "Qui consequat sint qui est ullamco veniam ullamco tempor.",
   },
   {
-    id: 31,
+    id: "school",
     title: "School",
     instituteName: "Manas Vidyalaya",
     degree: "10th CBSE Board",
     duration: "2017",
     score: "10 out of 10 CGPA",
-    description: "Qui consequat sint qui est ullamco veniam ullamco tempor.",
+    // description: "Qui consequat sint qui est ullamco veniam ullamco tempor.",
   },
 ];
 

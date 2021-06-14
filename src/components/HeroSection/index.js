@@ -28,7 +28,7 @@ const HeroSection = () => {
       <HeroContent>
         <HeroH1>Hi there, My name is Hritik Kumar.</HeroH1>
         <HeroP>
-          Tech Enthusiast, currently a sophomore at NIT Kururkshera.
+          Tech Enthusiast, currently an IT sophomore at NIT Kururkshera.
         </HeroP>
         <HeroBtnWrapper>
           <Button
