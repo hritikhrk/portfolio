@@ -49,7 +49,7 @@ export const WorkData = [
     id: "we3",
     instituteName: "Navprayas",
     duration: "July 2020 - Sept 2020",
-    por: "Executive Member",
+    por: "Backend Intern",
     description:
       "Worked on the Backend part of its official website using Node.js, Express.js, MongoDb, jwt. Created database for registration of different events organised by Navprayas, database for FAQs, Event Scheduler, Contact form and various APIs to perform CRUD operations on it.",
   },
