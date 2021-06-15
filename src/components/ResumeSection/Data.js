@@ -40,7 +40,7 @@ export const WorkData = [
   {
     id: "we2",
     instituteName: "Navprayas",
-    duration: "Aug 2020 – Sept 2020",
+    duration: "July 2020 – Sept 2020",
     por: "Event Coordinator",
     description:
     "Volunteered as an Event Coordinator - Framed brainstorming puzzles for PUZZLE RACE - 2020 organized by Navprayas.",
