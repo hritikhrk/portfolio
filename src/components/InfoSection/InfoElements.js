@@ -3,8 +3,7 @@ import styled from "styled-components";
 export const SectionContainer = styled.div`
   color: #fff;
   background-color: #0d0d0d;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding: 20px 0;
 
   @media screen and (max-width: 768px) {
     padding-top: 80px;
@@ -13,6 +12,7 @@ export const SectionContainer = styled.div`
 
 export const SectionH1 = styled.h1`
   font-size: 48px;
+  padding: 0;
   margin-bottom: 32px;
   text-align: center;
   color: #01bf76;

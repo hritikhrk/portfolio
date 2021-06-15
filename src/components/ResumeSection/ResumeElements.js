@@ -14,7 +14,6 @@ export const RowWrapper = styled.div`
   @media screen and (min-width: 769px) {
     flex: 50%;
   }
-
 `;
 
 export const RowTitle = styled.h2`
@@ -53,7 +52,10 @@ export const SkillContainer = styled.div`
 `;
 
 export const ProgrammingSkill = styled.div`
-margin-top: 24px;
+  margin-top: 24px;
+  @media screen and (min-width: 769px) {
+    margin-left: 16px;
+  }
 `;
 
 export const SkillTitle = styled.h3`
@@ -65,9 +67,7 @@ export const SkillDiv = styled.div`
   flex-wrap: wrap;
 `;
 
-export const SkillDivWrapper = styled.div`
-
-`;
+export const SkillDivWrapper = styled.div``;
 
 export const SkillPart = styled.div`
   padding: 4px 12px 0 0;

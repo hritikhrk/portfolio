@@ -66,7 +66,7 @@ const EducationContainer = (props) => (
 const ResumeSection = () => {
   return (
     <>
-      <SectionContainer id="resume">
+      <SectionContainer id="resume" style={{paddingTop: "30px"}}>
         <SectionH1>RESUME</SectionH1>
         <SectionWrapper>
           <Row>
