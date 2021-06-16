@@ -7,25 +7,32 @@ import {
   Submit,
   ErrorMsgWrapper,
 } from "./ContactElements";
-import emailjs, { init } from 'emailjs-com';
-import dotenv from 'dotenv';
-import { SECRET_KEY } from '../../config';
+import emailjs, { init } from "emailjs-com";
+import { SECRET_KEY } from "../../config";
+require('dotenv').config();
 
 init(SECRET_KEY.USER_ID);
 
-dotenv.config();
-
 const ContactForm = () => {
-  function sendEmail(e) {
-    e.preventDefault();
+  async function sendEmail(e) {
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        SECRET_KEY.SERVICE_ID,
+        SECRET_KEY.TEMPLATE_ID,
+        "#contact-form",
+        SECRET_KEY.USER_ID
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+          window.alert("Message sent");
+        },
+        (error) => {
           console.log(error.text);
-      });
-      e.target.reset();
+          window.alert("Oops, something went wrong.");
+        }
+      );
   }
 
   return (
@@ -50,9 +57,12 @@ const ContactForm = () => {
             .min(3, "Write at least 10 words")
             .required("required"),
         })}
-        onSubmit={sendEmail}
+        onSubmit={(values, { resetForm }) => {
+          // do your stuff
+          sendEmail().then(resetForm());
+        }}
       >
-        <Form method="post">
+        <Form id="contact-form" method="post">
           <InputWrapper>
             <label htmlFor="name">Name</label>
             <Input name="name" type="text" />
