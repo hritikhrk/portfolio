@@ -25,7 +25,7 @@ import ContactForm from "./ContactForm";
 const ContactSection = () => {
   return (
     <>
-      <SectionContainer id="contact" style={{ paddingBottom: "70px" }}>
+      <SectionContainer id="contact" style={{paddingTop: "50px" , paddingBottom: "80px" }}>
         <SectionH1>CONTACT ME</SectionH1>
         <SectionWrapper>
           <Column2>
