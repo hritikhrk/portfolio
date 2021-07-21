@@ -15,4 +15,12 @@ export const CardsData = [
     content:
       "Developed a URL-Shortener application using Node.js, Express.js and MongoDB.",
   },
+  {
+    id: "PR3",
+    title: "ONLINE IDE",
+    href: "https://compile-it-hritikhrk.herokuapp.com/",
+    imgUrl: "/Assets/PR3.png",
+    content:
+      "Developed an online IDE web app using MERN Stack. User can run C++, Java and Python3 programming language in it.",
+  },
 ];

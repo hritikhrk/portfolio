@@ -31,19 +31,18 @@ export const EducationData = [
 export const WorkData = [
   {
     id: "we1",
-    instituteName: "Navprayas",
-    duration: "May 2021 – present",
-    por: "Team Lead",
-    description:
-      "Leading a team of 8 members to successfully organize the PUZZLE RACE - 2021. • Manage team workload distribution and structure to ensure consistent good performance.",
+    instituteName: "IOSD",
+    duration: "July 2021 – present",
+    por: "Web Developer Intern",
+    description: "Working on an e-commerce website, responsible for fixing bugs and issues, integrated some APIs",
   },
   {
     id: "we2",
     instituteName: "Navprayas",
-    duration: "July 2020 – Sept 2020",
-    por: "Event Coordinator",
+    duration: "May 2021 – June 2021",
+    por: "Puzzle Race Team Lead",
     description:
-    "Volunteered as an Event Coordinator - Framed brainstorming puzzles for PUZZLE RACE - 2020 organized by Navprayas.",
+      "Leading a team of 8 members to successfully organize the PUZZLE RACE - 2021. • Manage team workload distribution and structure to ensure consistent good performance.",
   },
   {
     id: "we3",
@@ -52,5 +51,13 @@ export const WorkData = [
     por: "Backend Intern",
     description:
       "Worked on the Backend part of its official website using Node.js, Express.js, MongoDb, jwt. Created database for registration of different events organised by Navprayas, database for FAQs, Event Scheduler, Contact form and various APIs to perform CRUD operations on it.",
+  },
+  {
+    id: "we4",
+    instituteName: "Navprayas",
+    duration: "July 2020 – Sept 2020",
+    por: "Puzzle Race Event Coordinator",
+    description:
+    "Volunteered as an Event Coordinator - Framed brainstorming puzzles for PUZZLE RACE - 2020 organized by Navprayas.",
   },
 ];
