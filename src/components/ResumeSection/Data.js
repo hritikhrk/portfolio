@@ -34,7 +34,7 @@ export const WorkData = [
     instituteName: "IOSD",
     duration: "July 2021 – present",
     por: "Web Developer Intern",
-    description: "Working on an e-commerce website, responsible for fixing bugs and issues, integrated some APIs",
+    description: "Working on an e-commerce website, responsible for fixing bugs and issues, integrated some APIs.",
   },
   {
     id: "we2",
