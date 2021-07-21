@@ -22,8 +22,7 @@ const InfoSection = () => {
           <Column2>
             <IntroP>
               My name is Hritik Kumar. I am from Gaya, Bihar. I'm pursuing
-              B.Tech Degree in Information Technology at NIT Kurukshetra. I have
-              recently passed the 2<sup>nd</sup> year of my undergraduate.
+              B.Tech Degree in Information Technology at NIT Kurukshetra. I am in the 3<sup>rd</sup> year of my undergraduate.
             </IntroP>
             <IntroP>
               I am also an executive member of a non- profit organization
