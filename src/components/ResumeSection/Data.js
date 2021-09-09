@@ -32,9 +32,10 @@ export const WorkData = [
   {
     id: "we1",
     instituteName: "IOSD",
-    duration: "July 2021 – present",
+    duration: "July 2021 – Aug 2021",
     por: "Web Developer Intern",
-    description: "Working on an e-commerce website, responsible for fixing bugs and issues, integrated some APIs.",
+    description:
+      "Working on an e-commerce website, responsible for fixing bugs and issues, integrated some APIs.",
   },
   {
     id: "we2",
@@ -58,6 +59,6 @@ export const WorkData = [
     duration: "July 2020 – Sept 2020",
     por: "Puzzle Race Event Coordinator",
     description:
-    "Volunteered as an Event Coordinator - Framed brainstorming puzzles for PUZZLE RACE - 2020 organized by Navprayas.",
+      "Volunteered as an Event Coordinator - Framed brainstorming puzzles for PUZZLE RACE - 2020 organized by Navprayas.",
   },
 ];
