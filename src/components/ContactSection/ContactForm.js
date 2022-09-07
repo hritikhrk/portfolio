@@ -54,7 +54,7 @@ const ContactForm = () => {
             .required("required"),
           message: Yup.string()
             .trim()
-            .min(3, "Write at least 10 words")
+            .min(3, "Write at least 3 words")
             .required("required"),
         })}
         onSubmit={(values, { resetForm }) => {

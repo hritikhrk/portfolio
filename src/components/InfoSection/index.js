@@ -22,12 +22,13 @@ const InfoSection = () => {
           <Column2>
             <IntroP>
               My name is Hritik Kumar. I am from Gaya, Bihar. I'm pursuing
-              B.Tech Degree in Information Technology at NIT Kurukshetra. I am in the 3<sup>rd</sup> year of my undergraduate.
+              B.Tech Degree in Information Technology at NIT Kurukshetra. I am
+              in the Final year of my Undergraduate.
             </IntroP>
             <IntroP>
               I am also an executive member of a non- profit organization
               "NAVPRAYAS- A Group of Innovative Thoughts" since 2020. I am
-              grateful to be a part of this organization which has served the
+              grateful to be a part of this organization which is serving the
               society by organising different events, Educational Seminars,
               Carrer Counselling and different social works since 2000.
             </IntroP>
@@ -39,8 +40,7 @@ const InfoSection = () => {
             </IntroP>
             <IntroP>
               Besides these things, I love to teach children and help them to
-              grow and learn faster. I am also a sci-fi/mystery genre movie
-              lover.
+              grow and learn. I am also a sci-fi/mystery genre movie lover.
             </IntroP>
           </Column2>
         </SectionWrapper>

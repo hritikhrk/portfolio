@@ -118,10 +118,10 @@ const ResumeSection = () => {
                       <SkillP>Express.js,</SkillP>
                     </SkillPart>
                     <SkillPart>
-                      <SkillP>MongoDb,</SkillP>
+                      <SkillP>MongoDB,</SkillP>
                     </SkillPart>
                     <SkillPart>
-                      <SkillP>MySql</SkillP>
+                      <SkillP>MySQL</SkillP>
                     </SkillPart>
                   </SkillDiv>
                 </ProgrammingSkill>
