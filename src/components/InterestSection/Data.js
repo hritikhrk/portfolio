@@ -1,11 +1,11 @@
 export const CardsData = [
   {
     id: "PR1",
-    title: "RESTAURANT WEBSITE",
+    title: "MARKETZONE BACKEND",
     imgUrl: "/Assets/PR1.png",
-    href: "https://hritikhrk.github.io/wdc/mod5_sol/assignment5-solution-starter/",
+    href: "https://github.com/hritikhrk/marketzone-backend",
     content:
-      "A fully responsive website for a Chinese Restaurant developed by using HTML, CSS, Bootstrap and JavaScript.",
+      "Developed an E-Commerce website backend using node.js and database using mongoDB.",
   },
   {
     id: "PR2",
